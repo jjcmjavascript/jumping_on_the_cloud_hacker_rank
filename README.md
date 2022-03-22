@@ -31,13 +31,12 @@ Returns
 
     int: the minimum number of jumps required
 
-
-Input Format
-n = total of steps
-path = string of 0 - 1;
-
-function(int n, String path)
   
- Output Format
+Input Format
+path = [0,1,0,1,1,0,0,1,0];
+
+function(path)
+  
+Output Format
 
 Print the minimum number of jumps needed to win the game.
